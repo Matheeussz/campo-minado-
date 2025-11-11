@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💣 Campo Minado </title>
+    
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    </header>
+
+    <main class="container">
+        
+        <div class="content">
+            <h2>Tente a sorte nesse campo minado</h2>
+            <p>Cuidado com a **BOMBA** !!!</p>
+            
+            <button id="start-button" onclick="iniciarJogo()">Bora jogar!</button>
+            
+            <div id="game-message"></div>
+        </div>
+
+        <div id="game-area" style="display: none;">
+            <div id="game-board"></div>
+            <button id="restart-button" onclick="reiniciarJogo()">
+                Novo Jogo
+            </button>
+        </div>
+        
+    </main>
+
+    </footer>
+    
+    <script src="script.js"></script> 
+</body>
+
+</html>
